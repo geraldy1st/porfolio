@@ -1,4 +1,4 @@
-$primary-color: #444;
+$primary-color: #555;
 $secondary-color: #ddfa3c;
 $show-home-image: true;
 $home-image: url('https://images.pexels.com/photos/296115/pexels-photo-296115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
@@ -25,6 +25,15 @@ $background-opacity: 0.8;
                 background: rgba($primary-color, $background-opacity);
             }
         }
+    }
+}
+
+// Set Text Color
+@function set-text-color($color){
+    @if (lightness($color) > 40 ){
+        @return #111;
+    }@else{
+        @return #EEE;
     }
 }
 
