@@ -1,5 +1,5 @@
-$primary-color: #555;
-$secondary-color: #ddfa3c;
+$primary-color: rgb(117, 189, 238);
+$secondary-color: #0927af;
 $show-home-image: true;
 $home-image: url('https://images.pexels.com/photos/296115/pexels-photo-296115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 $background-opacity: 0.8;
@@ -46,7 +46,7 @@ $background-opacity: 0.8;
 }
 
 @mixin mediaMd {
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) and (orientation: landscape){
         @content;
     }
 }
