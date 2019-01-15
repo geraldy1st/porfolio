@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #111;
+    background: #eee;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #5e5e5e;
+    background: #1f1f1f;
     list-style: none;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #6b6b6b;
+    background: #2c2c2c;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -73,7 +73,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #111;
+    color: #eee;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -95,8 +95,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #6b6b6b;
-  color: #111;
+  background: #2c2c2c;
+  color: #eee;
   height: 100%;
   margin: 0 auto;
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(107, 107, 107, 0.8); }
+      background: rgba(44, 44, 44, 0.8); }
 
 h1,
 h2,
@@ -129,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(112, 112, 112, 0.5); }
+    background: rgba(49, 49, 49, 0.5); }
 
 a {
   color: #fff;
@@ -178,7 +178,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #787878;
+    background: #393939;
     padding: 0.5rem;
     border-bottom: #56ca90 5px solid; }
 
@@ -225,14 +225,14 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #ebebeb;
+  background: #acacac;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #525252;
-  color: #111;
+  background: #131313;
+  color: #eee;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
