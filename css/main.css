@@ -132,8 +132,7 @@ h3 {
     background: rgba(49, 49, 49, 0.5); }
 
 a {
-  color: #fff;
-  text-decoration: none; }
+  color: #fff; }
 
 header {
   position: fixed;
@@ -186,6 +185,9 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem; }
+  .projects a {
+    text-decoration: none;
+    color: #fff; }
   .projects img {
     width: 100%;
     border: 3px #fff solid; }
@@ -210,6 +212,9 @@ main {
       color: #111; }
       .boxes div:hover span {
         color: #111; }
+
+.icons a {
+  text-decoration: none; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -267,12 +272,12 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/profil2.jpeg") center center;
+      background: url("../img/profil.jpg") center center;
       background-size: cover;
       width: 140px;
       height: 140px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
