@@ -42,7 +42,7 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0);
     .portrait {
-      background: url("../img/profil2.jpeg") center center;
+      background: url('../img/profil.jpg') center center;
       background-size: cover;
       width: 140px;
       height: 140px;
@@ -50,11 +50,11 @@
   }
   .about-info {
     grid-template-areas:
-      "bioimage"
-      "bio"
-      "job1"
-      "job2"
-      "job3";
+      'bioimage'
+      'bio'
+      'job1'
+      'job2'
+      'job3';
     grid-template-columns: 1fr;
   }
   .projects {

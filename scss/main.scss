@@ -32,7 +32,7 @@ h3 {
 }
 a {
   color: #fff;
-  text-decoration: none;
+  //   text-decoration: inherit;
 }
 header {
   position: fixed;
@@ -101,6 +101,10 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 
   img {
     width: 100%;
@@ -135,6 +139,10 @@ main {
     }
   }
 }
+.icons a {
+  text-decoration: none;
+}
+
 // Button styles
 .btn {
   display: block;
