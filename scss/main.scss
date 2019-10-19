@@ -46,9 +46,10 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
   .icons {
-    margin-top: 1rem;
+    margin-top: 3rem;
     a {
       padding: 0.4rem;
+      text-decoration: none;
       &:hover {
         color: $secondary-color;
         @include easeOut();
@@ -125,22 +126,19 @@ main {
   align-items: center;
   margin-top: 1rem;
   div {
-    font-size: 1.3rem;
-    border: 3px solid #fff;
+    font-size: 1.1rem;
+    border: 3px solid transparent;
     padding: 0.5rem 1.5rem;
     // @include easeOut;
     margin-bottom: 3rem;
-    &:hover {
-      background: $secondary-color;
-      color: set-text-color($secondary-color);
-      span {
-        color: set-text-color($secondary-color);
-      }
-    }
+    // &:hover {
+    //   background: $secondary-color;
+    //   color: set-text-color($secondary-color);
+    //   span {
+    //     color: set-text-color($secondary-color);
+    //   }
+    // }
   }
-}
-.icons a {
-  text-decoration: none;
 }
 
 // Button styles

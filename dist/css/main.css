@@ -146,9 +146,10 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 3rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      text-decoration: none; }
       main .icons a:hover {
         color: #56ca90;
         transition: all 0.5s ease-out; }
@@ -203,18 +204,10 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
-    font-size: 1.3rem;
-    border: 3px solid #fff;
+    font-size: 1.1rem;
+    border: 3px solid transparent;
     padding: 0.5rem 1.5rem;
     margin-bottom: 3rem; }
-    .boxes div:hover {
-      background: #56ca90;
-      color: #111; }
-      .boxes div:hover span {
-        color: #111; }
-
-.icons a {
-  text-decoration: none; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
