@@ -146,13 +146,14 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
-    margin: 3rem auto;
     display: flex;
-    width: 50%; }
+    max-width: 50%;
+    margin: auto; }
     main .icons a {
       padding: 0.4rem;
       text-decoration: none;
-      margin: auto; }
+      flex: 1;
+      text-align: center; }
       main .icons a:hover {
         color: #56ca90;
         transition: all 0.5s ease-out; }
