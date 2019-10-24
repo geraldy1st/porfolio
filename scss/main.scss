@@ -46,10 +46,14 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
   .icons {
-    margin-top: 3rem;
+    margin: 3rem auto;
+    display: flex;
+    max-width: 60%;
     a {
       padding: 0.4rem;
       text-decoration: none;
+      margin: auto;
+
       &:hover {
         color: $secondary-color;
         @include easeOut();
