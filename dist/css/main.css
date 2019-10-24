@@ -148,7 +148,7 @@ main {
   main .icons {
     margin: 3rem auto;
     display: flex;
-    max-width: 60%; }
+    width: 50%; }
     main .icons a {
       padding: 0.4rem;
       text-decoration: none;
