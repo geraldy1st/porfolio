@@ -109,6 +109,22 @@
       color: $secondary-color;
     }
   }
+  .icons {
+    display: flex;
+    height: 10vh;
+    background-color: $primary-color;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      margin: 0 25px;
+      @include easeOut;
+    }
+    a:hover {
+      color: $secondary-color;
+    }
+  }
 }
 // Delay each nav item slide by .2s
 

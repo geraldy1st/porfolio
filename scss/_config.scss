@@ -1,7 +1,7 @@
-$primary-color: rgb(44, 44, 44);
+$primary-color: #2c2c2c;
 $secondary-color: #56ca90;
 $show-home-image: true;
-$home-image: url("https://images.pexels.com/photos/296115/pexels-photo-296115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+$home-image: url('https://images.pexels.com/photos/296115/pexels-photo-296115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 $background-opacity: 0.8;
 
 @mixin easeOut {
@@ -15,7 +15,7 @@ $background-opacity: 0.8;
       background-attachment: fixed;
       background-size: cover;
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         right: 0;
